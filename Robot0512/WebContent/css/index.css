@@ -1,0 +1,182 @@
+@CHAR
+
+SET "UTF-8";
+*{margin: 0;padding: 0;}
+body,html{width: 100%;height: 100%;}
+body{
+	background: url(../images/0051.jpg) no-repeat;
+    babackground-size: 100%;
+    background-position:center ;
+}
+h1{
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	height: 80px;line-height: 80px;
+	font-weight: 100;
+    text-align: center;	
+	
+}
+/*log的样式*/
+/* img.h-img {类选择器   这是在浏览器中复制过来的
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 20px;
+    float: left;
+} */
+
+#box{
+	width: 800px;height: 600px;
+	background: rgba(255,255,255,.5);
+	margin: 10px auto;
+	border-radius:10px;
+	
+}
+
+#box   .box-head{
+	height: 60px;background: #d16465;
+	/*设置上部边框圆角*/
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	
+	
+}
+
+/*聊天盒子的样式 这是在浏览器中调试的  可以直接复制过来*/
+/* div#box {
+    width: 800px;
+    height: 600px;
+    background: rgba(255,255,255,.5);
+    margin: 10px auto;
+    border-radius: 10px;
+} */
+.box-head  .h-img{  /**/
+	width: 80px; height: 60px; border-radius: 50%;
+	margin: 0 20px; float: left;
+
+}
+
+.box-head   .h-span{
+	color: #fff; line-height: 60px;
+	font-size: 24px;float: left;
+	
+	
+}
+
+#box    .box-body{
+	width: 760px;height: 420px;padding: 20px;
+	overflow: auto;
+	
+	
+}
+
+.box-body::-webkit-scrollbar{width: 4px;}
+
+
+.box-body::-webkit-scrollbar-track{
+	background: #808080; border-radius: 2em;
+	
+}
+
+.box-body::-webkit-scrollbar-thumb{
+	background-color: #03A9F4; border-radius: 2em;
+	
+}
+.box-body::-moz-scrollbar{width: 4px;}
+.box-body::-moz-scroll-track{
+	
+	background: #808080; border-radius: 2em;
+}
+
+.box-body::-moz-scroll-thumb{
+	
+	background: #03A9F4; border-radius: 2em;
+}
+
+
+.box-body  .rotWord span{
+	width: 40px; height: 40px; border-radius: 50%;
+	background: url(../images/519.jpg) center;
+	background-size: 40px,40px;
+	float: left; 
+	
+	
+}
+
+.box-body  .rotWord  p{
+	float:left; padding: 10px; background: #d5f1e8;
+	margin-left: 10px;border-radius: 8px;
+	
+	word-break: break-all;max-width: 220px;
+	
+}
+
+.rotWord{overflow: hidden;}
+
+.box-body  .myWord  span{
+	width: 40px; height: 40px; border-radius: 50%;
+	background: url(../images/P80102-113150.jpg);
+	background-size: 40px 40px;
+	float: right;
+	
+	
+}
+
+.box-body  .myWord  p{
+	float: right; padding: 10px; background: #00b7ff;
+	margin-right: 10px; border-radius: 8px;
+	word-break: break-all; max-width: 220px;
+	
+}
+
+.myWord{overflow: hidden;}
+
+
+#box  .box-footer{
+	width: 760px; height: 60px; padding: 0 20px;
+	
+}
+.box-footer #input{
+	width: 620px;height: 60px;
+	border: none; border-radius: 8px; outline: none;
+	padding-left: 20px;
+	background: rgba(0,0,0,.1);color: #fff;
+	text-indent: 10px;
+	font-size: 18px;
+	float: left;
+	overflow: hidden;
+}
+
+.box-footer #btn{
+	width: 100px; height: 60px; line-height: 60px;
+	background: #00b7ff; border-radius: 8px;
+	cursor: pointer; user-select:none;
+	font-size: 18px;text-align: center;
+	float: right;
+	
+	
+}
+.show{
+	text-decoration: none;
+	background: #000;color: #fff;
+	padding: 10px;border-radius: 8px;
+	box-shadow: 2px 2px 5px #666;
+}
+.hide{
+	float: right;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+    border: 1px solid #fff   ;border-radius: 50%;
+    margin-top: 18px; margin-right: 15px;
+    display: block; /*margin生效*/
+    widows: 25px;height: 25px;line-height: 25px;
+    text-align: center;	
+	
+}
+.hide:hover{
+	color: #e6fd39;
+	border: 1px dotted #E6FD39;
+	box-shadow: 1px 1px 1px #fff;
+	
+}
