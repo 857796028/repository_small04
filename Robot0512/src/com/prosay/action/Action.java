@@ -64,6 +64,7 @@ public class Action extends HttpServlet {
 			
 			
 			BufferedReader  br = new BufferedReader(
+					
 					new InputStreamReader(
 							connection.getInputStream(),"utf-8"));
 			
@@ -72,6 +73,8 @@ public class Action extends HttpServlet {
 				sb.append(line);
 			}
 			br.close();
+			    
+			
 			
 			
 			
